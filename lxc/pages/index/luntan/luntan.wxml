@@ -1,7 +1,4 @@
 <block wx:for="{{datap}}" wx:for-item="item" wx:if="{{index <= 10}}">
-
-
-
   <view class="container" bindtap='viewontap' data-id="{{item.id}}">
     <view class="item1">
       <image src="{{touxiang}}" class="image-touxiang"></image>

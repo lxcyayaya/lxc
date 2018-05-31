@@ -3,17 +3,18 @@ Page({
     isfabu: false,
     username: '',
     touxiang: '',
-    ischeck:false,
-    pas:'',
-    max:'0',
+    ischeck: false,
+    pas: '',
+    //下面这个max是为了解决最长字数限制的东西。
+    max: '0',
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
+
+//页面初始化函数
   onLoad: function (options) {
     var that = this;
     this.setData({ openid: '' });
+    //获取用户信息的函数
     wx.getUserInfo({
       success: function (res) {
         console.log(res.userInfo.avatarUrl);
@@ -27,12 +28,11 @@ Page({
   },
   onShareAppMessage: function () {
   },
-  onShow:function(options){
-    console.log("11111");
-  } ,
-  
-  
-  //下面是图片的函数
+  onShow: function (options) {
+  },
+
+
+  //下面是选择图片的函数
   choose: function () {
     var that = this;
     wx.chooseImage({
@@ -52,15 +52,14 @@ Page({
         })
       },
     })
-
   },
 
 
 
-  //下面是删除函数
+  //下面是在里面长按删除图片函数
   delimg: function (res) {
     var id = res.currentTarget.dataset.id;
-    console.log(id);
+    //console.log(id);
     var temp = [];
     var images = this.data.images;
     for (var idx in images) {
@@ -126,7 +125,6 @@ Page({
               wx.showToast({
                 title: '发表失败',
               })
-
             }
 
           },
@@ -144,8 +142,8 @@ Page({
     var pwd = '';
     for (var i = 0; i < len; i++) {
       pwd += $chars.charAt(Math.floor(Math.random() * maxPos));
-    　　}
-    　　return pwd;
+    }
+    return pwd;
   },
 
 
@@ -180,8 +178,8 @@ Page({
     this.setData({ pas: res.detail.value });
   },
 
-  tijiao:function(){
-    var pas=this.data.pas
+  tijiao: function () {
+    var pas = this.data.pas
     if (pas != 'xuxin666')
       wx.showModal({
         title: '提示',

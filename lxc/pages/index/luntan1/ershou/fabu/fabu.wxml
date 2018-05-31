@@ -1,5 +1,5 @@
 <view class='input'>
-  <input placeholder="标题 品牌品类都是卖家喜欢搜索的" value='{{fabiao}}' class="text-ms" bindinput='getbiaoti1'> </input>
+  <!-- <input placeholder="标题 品牌品类都是卖家喜欢搜索的" value='{{fabiao}}' class="text-ms" bindinput='getbiaoti1'> </input> -->
 </view>
 <!--<image class='fenge' src="http://www.gamewan.top/img/fenge.png"></image>-->
 <view>

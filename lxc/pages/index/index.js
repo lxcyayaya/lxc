@@ -1,24 +1,21 @@
 Page({
-
   data: {
 
   },
 
+
   onLoad: function (options) {
-
     var that = this;
-
-
     wx.login({
       success: function (res) {
-        console.log(res);
+        //console.log(res);
         wx.request({
           url: 'https://www.gamewan.top/getopenid.php',
           method: 'POST',
           data: 'code=' + res.code,
           header: { 'content-type': 'application/x-www-form-urlencoded' },
           success: function (res) {
-            console.log(res);
+            //console.log(res);
             var openid = res.data;
             that.setData({ openid: openid });
             //that.jianceshujuku(openid);
@@ -53,7 +50,7 @@ Page({
       data: 'openid=' + openid,
       header: { 'Content-Type': ' application/x-www-form-urlencoded' },
       success: function (res) {
-        console.log(typeof res.data)
+        //console.log(typeof res.data)
         if (typeof res.data == 'object') {
 
           if (res.data == null) {
@@ -203,11 +200,11 @@ Page({
     for (var idx in res) {
       var item = res[idx];
       item.content = unescape(item.content);
-      console.log("内容" + item.content);
+      //console.log("内容" + item.content);
       temp.push(item);
 
     }
-    console.log(temp);
+    //console.log(temp);
     this.setData({ rdsd: temp });
 
   },
