@@ -1,0 +1,54 @@
+.ima{
+  width: 92%;
+  margin: 4%;
+  height: 300rpx;
+  border-radius: 10px;
+}
+.icon{
+  height: 30rpx;
+  width: 30rpx;
+  margin-left: 40%;
+  padding: 0;
+  margin-top: 5rpx;
+}
+.zuozhe{
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+}
+.bianjizhe{
+  text-align: center;
+  font-size: 30rpx;
+  margin-left: 10rpx;
+  color: #666;
+}
+.didian{
+  margin-left: 10rpx;
+  font-size: 28rpx;
+  padding: 0;
+  
+
+}
+.author{
+  margin:0rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: red;
+}
+.title{
+  font-size: 45rpx;
+  margin-left: 10rpx;
+  font-weight: bolder;
+}
+.littleText{
+  margin: 30rpx 50rpx;
+  font-weight: 20rpx;
+  color: #666;
+}
+.bigText{
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+
+}

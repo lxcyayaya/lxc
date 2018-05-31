@@ -1,0 +1,48 @@
+﻿<view class='goright'>
+  <view class='myprize' bindtap='myprize'>我的奖品</view>
+</view>
+<view class="container">
+  <view class='mainContainer'>
+    <image src='http://www.gamewan.top/qiandao/%E7%AD%BE%E5%88%B0.png' catchtap='qiandaoTap' class='qiandao'></image>
+    <view class='wenbenkuang'>
+      <view class='tianshu'>
+        <text>你已签到</text>
+        <text>{{days}}</text>
+        <text>天</text>
+      </view>
+      <text class='littletext'>从周一累计签到七天即可获得抽奖机</text>
+      <text class='littletext'>会！奖品丰厚，不断更新！</text>
+    </view>
+    <view>
+      <image catchtap='choujiangTap' src='http://www.gamewan.top/qiandao/%E7%AB%8B%E5%8D%B3%E6%8A%BD%E5%A5%96.png' class='lijichoujiang'></image>
+    </view>
+  </view>
+</view>
+
+
+
+<scroll-view class="container1">
+  <view class="scrolltxt">
+    <view class="marquee_box">
+      <view class="marquee_text" style="transform: translateX(-{{marqueeDistance}}px)">
+        <text>{{text}}</text>
+        <text style="margin-right:{{marquee_margin}}px;"></text>
+        <text style="margin-right:{{marquee_margin}}px;">{{text}}</text>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+<view>
+  <view  class='littletext-1'>
+    <text>本周奖品：</text>
+  </view>
+  <view class='littletext-2'>
+    <text>1.辣语传奇20元优惠券</text>
+  </view>
+  <view class='littletext-3'>
+    <text>2. 教师资格证10元优惠券</text>
+  </view>
+  <view class='littletext-3'>
+    <text>3. 超大石板烤肉20元优惠券</text>
+  </view>
+</view>

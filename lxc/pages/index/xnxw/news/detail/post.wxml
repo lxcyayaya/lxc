@@ -1,0 +1,14 @@
+<view>
+  <image src="{{data.imgurl}}" class="aaa"></image>
+  <view style='margin:15rpx;'> <text class="bbb">{{data.title}}\n</text></view>
+ 
+  <view class="ddd">
+    <text class="ccc">{{data.author}}</text>
+    <text class="fff">{{data.time}}</text>
+  </view>
+  <view class="hhh">
+    <text class="ggg">{{data.content}}</text>
+  </view>
+
+  <view class="duiqi"></view>
+</view>

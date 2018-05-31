@@ -1,0 +1,9 @@
+.js
+{
+  margin-top: 300rpx;  /*容器的位置*/
+}
+.jszg{
+  font-size: 40rpx;
+  margin-top: 300rpx;             /*jszg字体的设置*/
+  margin-left: 190rpx;
+}

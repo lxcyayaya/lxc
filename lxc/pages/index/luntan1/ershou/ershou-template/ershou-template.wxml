@@ -1,0 +1,34 @@
+<template name="postItem">
+  <view class='fabu'>
+    <view class='head'>
+      <image class="author" src="{{touxiang}}"></image>
+      <view class='wenzi'>
+        <text class='author-name'>{{name}}</text>
+        <text class='date'>{{time}}</text>
+      </view>
+      <view style='width:40%;'></view>
+      <view style="display:flex;flex-direction:column;">
+        <view style='display:flex;flex-direction:row;'>
+          <view style='width:100%;'></view>
+          <text class="{{isdelete}}" data-id='{{id}}' bindtap='delitem'>删除</text>
+        </view>
+
+        <text class='jiage'>¥{{price}}</text>
+      </view>
+
+    </view>
+    <view class='neirong'>
+      <text class='miaoshu'>{{content}}</text>
+      <image src='{{pic1}}' style='width:690rpx;height:{{pic1height}}rpx;' bindtap='chakanimg' data-imgurl='{{pic1}}'></image>
+      <!-- catchtap='makecall' -->
+      <view class='littleioo'  >
+      <!-- <image src='https://liuxingchen.oss-cn-beijing.aliyuncs.com/shouji1.png'  class='littleicon'></image> -->
+   <!-- <button open-type="contact"> -->
+      <text style='color:red;margin-top:10rpx;' bindtap='makephone' data-phone='{{title}}'>电话:{{title}}</text>
+      <!-- </button> -->
+      </view>
+      <view style='height:2px;width:100%;background:rgb(255,227,227);margin-top:15rpx;'></view>
+    </view>
+
+  </view>
+</template>

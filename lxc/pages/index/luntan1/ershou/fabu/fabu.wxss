@@ -1,0 +1,120 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  padding: 25rpx 10rpx;
+  background: #fff;
+}
+
+.fenge {
+  width: 100%;
+  height: 25rpx;
+}
+
+.tianjia1 {
+  width: 180rpx;
+  height: 180rpx;
+  margin-left: 25rpx;
+}
+
+.wenzi {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 6%;
+  top: 660rpx;
+  opacity: 1.0;
+  color: #808080;
+}
+
+.xinxi {
+  width: 100%;
+  height: 300rpx;
+}
+
+.text-fb {
+  margin-left: 10rpx;
+  font-size: 40rpx;
+  height: 100rpx;
+  width: 700rpx;
+  color: black;
+}
+
+.text-ms {
+  margin-left: 10rpx;
+  margin-top: 8rpx;
+  font-size: 30rpx;
+  border-radius: 2px;
+  width: 700rpx;
+}
+
+.text-fb {
+  margin-left: 10rpx;
+  font-size: 30rpx;
+  height: 70rpx;
+  width: 700rpx;
+  border-radius: 2px;
+  font-weight: 500;
+  color: black;
+}
+
+.tu {
+  margin-top: 20rpx;
+  height: 100rpx;
+  width: 100rpx;
+}
+
+.fabu {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.suolue {
+  height: 200rpx;
+  width: 200rpx;
+  margin: 20rpx;
+}
+
+.fb-wb {
+  margin-top: 100rpx;
+  width: 600rpx;
+  margin-left: 75rpx;
+  background: #ff7908;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 30rpx;
+  color: black;
+  box-shadow: 2rpx 2rpx 2rpx #888;
+}
+
+.moto-container {
+  margin-top: 10rpx;
+  margin-left: 40rpx;
+  border: 1px solid #808080;
+  width: 200rpx;
+  height: 180rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.row {
+  margin-top: -90rpx;
+  margin-left: 40rpx;
+  width: 200rpx;
+  height: 1px;
+  font-size: 0;
+  background: #808080;
+}
+
+.colum {
+  margin-left: 140rpx;
+  margin-top: -90rpx;
+  width: 1px;
+  height: 90px;
+  font-size: 0;
+  background: #808080;
+}

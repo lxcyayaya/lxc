@@ -1,0 +1,4 @@
+/* pages/index/xnfd/gwyks/gwyks.wxss */
+page{
+ text-align: center;
+}

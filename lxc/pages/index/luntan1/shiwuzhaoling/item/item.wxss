@@ -1,0 +1,65 @@
+
+.post-container{
+  display: flex;
+  flex-direction:row;
+  margin-top:20rpx;
+  font-size: 30rpx;
+  margin-bottom: 200rpx;
+  
+}
+.t{
+  display: flex;
+  flex-direction: row;
+ 
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.z{
+  font-size: 24rpx;
+font-weight: 600;
+margin-bottom: 10px;
+margin-top: 20rpx;
+margin-left: 100rpx;
+}
+.moto-container{
+  margin-top: -100rpx;
+  border: 0px solid black;
+  width:686rpx;
+  height:200rpx;
+  border-radius:5px;
+  text-align: center;
+  color:black;
+  background-color: white;
+}
+.tu1{
+
+  align-items: center;
+  width: 112rpx;
+  height: 109rpx;
+  margin-top: 10rpx;
+  margin-bottom: 50rpx;
+
+}
+.tu3{
+
+  align-items: center;
+  width: 9rpx;
+  height: 170rpx;
+  margin-top: 10rpx;
+  margin-bottom: 50rpx;
+
+}
+
+.tu2{
+
+  align-items: center;
+  width: 686rpx;
+  height: 69rpx;
+  margin-top: -60rpx;
+  margin-bottom: 50rpx;
+
+}
+

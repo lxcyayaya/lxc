@@ -1,0 +1,24 @@
+<view>
+  <view class='input'>
+    <input placeholder="输入联系方式" value='{{fabiao}}' class="text-fb" bindinput='getbiaoti'> </input>
+
+  </view>
+  <image class='fenge' src='http://www.gamewan.top/img/fenge.png'></image>
+  <view class='input'>
+    <textarea class='text-ms' placeholder="请输入物品详情" bindinput='getxiangqing'> </textarea>
+  </view>
+   <view class='input'>
+    <input placeholder="输入价格" value='{{fabiao}}' class="text-fb" bindinput='getjiage' type='number'> </input>
+    </view>
+  <block wx:for="{{images}}">
+    <image src='{{item}}' class="suolue" bindlongpress='delimg' data-id='{{index}}'></image>
+  </block>
+  <view class='fabu' bindtap='choose' >
+    <!---<image src='../../images/essc/a.png' class='tu' ></image>-->
+    <text>添加图片</text>
+  </view>
+
+  <button class='fb-wb' bindtap='fabu' disabled='{{isfabu}}'>发布</button>
+
+
+</view>

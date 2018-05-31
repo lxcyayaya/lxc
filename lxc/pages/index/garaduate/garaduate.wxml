@@ -1,0 +1,35 @@
+
+<import src="news-item/news-item-template.wxml" />
+
+<view>
+  <!-- 下面是搜索icon模块 -->
+  <view class='search'>
+    <!-- 下面是一个放大镜小图标 -->
+    <icon type='search' class='search-img' size='13' color='#405f80'> </icon>
+    <!-- 下面是一个搜索框 -->
+    <input type='text' placeholder='输入搜索内容' placeholder-class='placeholder' bindfocus='onBindFocus' bindchange="onBindchange" value='{{key}}' />
+    <!-- 下面是微信搜索框右面的一个小X号的显示 -->
+    <image wx:if="{{searchPanelShow}}" class='xx-img' src="http://47.95.224.243/img/news/xx.png" bindtap='onCancelImgTap'> </image>
+  </view>
+  <!-- 下面是一条分割线 -->
+</view>
+<view>
+  <image src='https://www.gamewan.top/img/jiuye.jpg' class='zhutu'></image>
+</view>
+<image class='fenge' src='http://47.95.224.243/img/news/fenge.png'></image>
+
+<!-- 下面是内容模块 -->
+<view>
+  <block wx:for="{{inf}}" wx:for-item="item">
+    <view catchtap="onPostTap" data-postId="{{item.id}}">
+      <template is="postItem" data="{{...item}}" />
+    </view>
+  </block>
+</view>
+<!-- //下面这个容器是为了解决fiex绝对定位会遮盖最后一条信息而找的一个相同高的空容器 -->
+<view class='tianchong'></view>
+<!-- //下面是一个添加按钮 -->
+<view class='add'>
+  <view class='cicle' bindtap="onTap"></view>
+  <text class='add-text'>发布</text>
+</view>

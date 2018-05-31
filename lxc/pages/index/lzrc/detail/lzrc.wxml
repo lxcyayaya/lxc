@@ -1,0 +1,131 @@
+<swiper vertical="{{flase}}" indicator-dots="true" autoplay="true" interval="5000">
+  <swiper-item>
+    <image src="{{inf1.swiper1}}" class="main"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="{{inf1.swiper2}}" class="marginl"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="{{inf1.swiper3}}" class="marginl"></image>
+  </swiper-item>
+</swiper>
+<view class="item-group" hidden='true'>
+  <view style='background:#743A3A;width:335rpx;height:500rpx; ' class='item'></view>
+  <view style='background:#0f0;width:335rpx;height:500rpx; ' class='item'></view>
+  <view style='background:#0f0;width:335rpx;height:500rpx; ' class='item'></view>
+
+</view>
+<view style='display:flex;flex-direction:row;'>
+  <image src='http://www.gamewan.top/img/ad_xlxb/定位图标.png' style='width:50rpx;height:50rpx;margin-left:30rpx;margin-top:20rpx;'></image>
+  <text style='margin-top:20rpx;margin-left:20rpx;font-size:30rpx;line-height:50rpx;'>{{inf1.place}}</text>
+
+</view>
+<view style='display:flex;flex-direction:row;' bindtap='phone'>
+  <image src='http://www.gamewan.top/img/ad_xlxb/联系图标.png' style='width:50rpx;height:50rpx;margin-left:30rpx;margin-top:20rpx;'></image>
+  <text style='margin-top:20rpx;margin-left:20rpx;font-size:30rpx;line-height:50rpx;'>联系电话：{{inf1.phone}}</text>
+</view>
+<view style='display:flex;flex-direction:row;'>
+  <view style="background:lightgrey;;width:300rpx;height:1px;margin-top:25rpx;"></view>
+  <text>超值套餐</text>
+  <view style="background:lightgrey;width:300rpx;height:1px;margin-top:25rpx;"></view>
+</view>
+<view style='text-align:center;'>
+  <text style='font-size:25rpx;color:#594a49'>CMOBO ESPECIAL</text>
+</view>
+<view style='display:flex;flex-direction:row;'>
+  <view style='display:flex;flex-direction:column;'>
+    <image src="{{inf1.pic1}}" style='height:372rpx;width:280rpx;margin-left:63.3rpx;margin-top:30rpx;' bindtap='one'></image>
+       <view style='text-align:center;width:280rpx;margin-left:63.3rpx;font-size:30rpx;'>{{inf1.miaoshu1}}</view>
+  </view>
+  <view style='display:flex;flex-direction:column;'>
+    <image src="{{inf1.pic2}}" style='height:372rpx;width:280rpx;margin-left:63.3rpx;margin-right:63.3rpx;margin-top:30rpx;' bindtap='two'></image>
+    <view style='text-align:center;width:280rpx;margin-left:63.3rpx;font-size:30rpx;'>{{inf1.miaoshu2}}</view>
+  </view>
+</view>
+<view style='display:flex;flex-direction:row;'>
+  <view style='display:flex;flex-direction:column;'>
+    <image src="{{inf1.pic3}}" style='height:372rpx;width:280rpx;margin-left:63.3rpx;margin-top:30rpx;' bindtap='three'></image>
+      <view style='text-align:center;width:280rpx;margin-left:63.3rpx;font-size:30rpx;'>{{inf1.miaoshu3}}</view>
+  </view>
+  <view style='display:flex;flex-direction:column;'>
+    <image src="{{inf1.pic4}}" style='height:372rpx;width:280rpx;margin-left:63.3rpx;margin-right:63.3rpx;margin-top:30rpx;' bindtap='four'></image>
+    <view style='text-align:center;width:280rpx;margin-left:63.3rpx;font-size:30rpx;'>{{inf1.miaoshu4}}</view>
+  </view>
+</view>
+<view style='text-align:center;font-size:30rpx;'>
+  <text>更多精彩扫描二维码即可获得</text>
+</view>
+<view style='text-align:center;'>
+  <image src="{{inf1.twocode}}" style="width:200rpx;height:200rpx;" bindtap='ercode'></image>
+</view>
+<view style='width:600rpx;margin-left:75rpx;margin-right:75rpx;'><text style='font-size:30rpx;'>{{inf1.huodong}}
+</text></view>
+
+
+
+<view style='display:flex;flex-direction:row;'>
+  <view style="background:lightgrey;;width:300rpx;height:1px;margin-top:25rpx;"></view>
+  <text>买家评论</text>
+  <view style="background:lightgrey;width:300rpx;height:1px;margin-top:25rpx;"></view>
+</view>
+<view style='text-align:center;'>
+  <text style='font-size:25rpx;color:#594a49;'>CUSTMER REVIEWS</text>
+</view>
+
+<scroll-view scroll-y style="height: 670rpx;" bindscrolltolower="xialashuaxin">
+
+
+  <block wx:for="{{inf}}" wx:for-item="item" wx:for-index="index">
+    <view class="item2-2-detail" data-idx='{{index}}' bindtap='xiangqing'>
+      <view class="item2-2">
+        <view class="pcolor"></view>
+        <view class="zongxiang">
+          <view class='hengxiang'>
+            <image src='{{item.touxiang}}' class="touxiang"></image>
+            <view class="zongxiang1">
+              <view class="nicheng">{{item.name}}</view>
+              <view class="timetext">{{item.time}}</view>
+            </view>
+            <view class="duiqi"></view>
+
+            <view class="{{item.isdelete}}" catchtap="deleteitem" data-id="{{item.id}}">删除</view>
+
+
+          </view>
+          <view class=" neirong ">{{item.content}}</view>
+          <view class="huanhang "></view>
+
+        </view>
+
+
+
+      </view>
+
+
+
+
+
+
+
+
+
+
+    </view>
+  </block>
+  <view class="weui-loadmore" hidden="{{isHideLoadMore}}">
+    <view class="weui-loading"></view>
+    <view class="weui-loadmore__tips">正在加载</view>
+  </view>
+</scroll-view>
+
+
+
+<view class="item2">
+  <view class="fb">
+    <input placeholder="请输入内容" value='{{fabiao}}' class="text-fb" bindinput='getneirong'> </input>
+    <view style="width:10rpx;"></view>
+
+    <button bindtap='fabiao' class="back-fb" hover-class="button-hover">发表</button>
+
+  </view>
+</view>

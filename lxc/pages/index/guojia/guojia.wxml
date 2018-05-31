@@ -1,0 +1,7 @@
+<view  class="container">
+<image class="user-avatar"src="http://47.95.224.243/img/11.png"></image>
+<text class="user-name">国家级等级考试查询</text>
+<image class="user-aa"src="http://47.95.224.243/img/21.png" bindtap='baocun' hidden='true'></image>
+<image class="user-ab"src="http://47.95.224.243/img/22.png" bindtap='siliujitap'></image>
+<image class="user-ac"src="http://47.95.224.243/img/23.png" bindtap="guoerbind"></image>
+</view>

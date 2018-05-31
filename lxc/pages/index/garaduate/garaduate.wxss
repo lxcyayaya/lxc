@@ -1,0 +1,129 @@
+@import "news-item/news-item-template.wxss";
+swiper {
+  width: 100%;
+  height: 350rpx;
+}
+
+swiper image {
+  width: 100%;
+  height: 350rpx;
+}
+
+.search {
+  background-color: #f2f2f2;
+  height: 70rpx;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: row;
+  margin-top: 20rpx;
+  margin-left: 35rpx;
+  margin-right: 35rpx;
+}
+
+.search-img {
+  margin: 25rpx 0 10rpx 25rpx;
+}
+
+.placeholder {
+  font-size: 14px;
+  color: #4e4d4d;
+  margin-left: 15rpx;
+}
+
+.search input {
+  height: 100%;
+  width: 600rpx;
+  margin-left: 20px;
+  font-size: 28rpx;
+}
+
+.search-panel {
+  position: absolute;
+  top: 80rpx;
+}
+.zhutu{
+  width: 100%;
+  height: 350rpx;
+  margin-top: 10rpx;
+  margin-bottom: 20rpxl;
+  border-radius: 15rpx;
+}
+.xx-img {
+  height: 30rpx;
+  width: 30rpx;
+  margin: auto 0 auto 10rpx;
+}
+
+.title {
+  margin-top: 30rpx;
+  margin-left: 35rpx;
+  margin-right: 35rpx;
+  height: 40rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.juxing {
+  width: 6rpx;
+  height: 40rpx;
+  margin-right: 15rpx;
+}
+
+.text {
+  font-size: 30rpx;
+  color: black;
+}
+
+.fenge {
+  width: 100%;
+  height: 4rpx;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.dada {
+  width: 250rpx;
+  height: 120rpx;
+}
+
+.xq {
+  font-size: 28rpx;
+  color: black;
+  margin-left: 30rpx;
+  width: 410rpx;
+  letter-spacing: 2rpx;
+}
+
+.add {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.cicle {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: yellow;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin-left: 320rpx;
+}
+
+.add-text {
+  margin-left: 335rpx;
+  font-size: 30rpx;
+}
+
+.tianchong{
+  height: 70px;
+}

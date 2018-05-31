@@ -1,0 +1,43 @@
+<view class="container">
+  <view class="item1">
+    <image src="{{touxiang}}" class="image-touxiang"></image>
+    <view class="name-time">
+      <text class="user">{{user}}</text>
+      <text class="timetext">{{date}}</text>
+      <text class="title">{{title}}</text>
+    </view>
+
+  </view>
+  <text class="text">{{content}}</text>
+
+  <view class="hx"></view>
+  <view class="item3">
+    <view class="item3">
+      <image class="image-chat" src="/images/chat1.png"></image>
+      <text class="review">1</text>
+    </view>
+    <view class="item3-1">
+      <image class="image-chat" src="/images/like.png"></image>
+      <text class="review">1</text>
+    </view>
+  </view>
+</view>
+<view class="review-container">
+  <view class="item1">
+    <image src="{{touxiang}}" class="image-touxiang "></image>
+  <view class="name-time" ><text class="user">BOOST xx</text><text class="timetext">08-26 08:27</text></view>
+
+  
+  </view>
+<text>这是正文</text>
+
+
+</view>
+<view class="item-bottom">
+<view class="hx1"></view>
+<view class="bottom">
+<view> <image src="/images/chat1.png " class="image-chat"></image><text>评论</text></view>
+<view><image src="/images/chat1.png " class="image-chat"></image><text>喜欢</text></view>
+<view><image src="/images/chat1.png " class="image-chat"></image><text>分享</text></view>
+</view>
+</view>

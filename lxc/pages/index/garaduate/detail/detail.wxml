@@ -1,0 +1,16 @@
+<view>
+  <image src="{{data.imgurl}}" class="ima"></image>
+  <view  class='title' > {{data.title}} </view>
+  <view  class='zuozhe'>
+  <view  class='bianjizhe'>编辑者：</view>
+  <view class='author'>{{data.author}}</view>
+  <image src='https://liuxingchen.oss-cn-beijing.aliyuncs.com/didian.png'  class='icon'></image>
+  <view class='didian'>{{didian}}</view>
+  </view>
+ <view class='bigText'>招聘要求</view>
+  <view class='littleText'>{{content}}</view>
+   <view class='bigText'>招聘人数</view>
+  <view class='littleText'>{{renshu}}</view>
+  <view class='bigText'>薪酬福利</view>
+   <view class='littleText'>{{fuli}}</view> 
+</view>

@@ -1,0 +1,24 @@
+<view class="container">
+<view class="v-touxiang">
+<image class="touxiang" src="http://47.95.224.243/img/slj-result.png"></image>
+</view>
+
+<view class="text-item1">
+<text class="text-detail">姓名：</text>
+<text class="text-detail">徐鑫</text>
+</view>
+<view class="text-item">
+<text class="text-detail">准考证号：</text>
+<text class="text-detail">11111111111</text>
+</view>
+<view class="text-item">
+<text class="text-detail">成绩：</text>
+<text class="text-detail">590</text>
+</view>
+<view class="v-touxiang">
+<image class="back" src="http://47.95.224.243/img/backtohome.png" bindtap='backhome'></image>
+</view>
+
+
+
+</view>

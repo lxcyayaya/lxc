@@ -1,0 +1,67 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.hengxiang{
+  display: flex;
+  flex-direction: row;
+  width: 700rpx;
+  margin-top: 22rpx;
+}
+.siliuji{
+  width: 700rpx;
+  height: 340rpx;
+    
+  margin-top: 20rpx;
+
+}
+.guoer{
+   width: 420rpx;
+  height: 328rpx;
+margin-left: 0rpx;
+}
+.yanjiusheng{
+   width: 270rpx;
+  height: 328rpx;
+    margin-left: 10rpx;
+
+}
+.heng{
+   display: flex;
+  flex-direction: row;
+  width: 700rpx;
+  margin-top:18rpx;
+
+}
+.chuguo{
+  width: 173rpx;
+  height: 300rpx;
+}
+ .gongwuyuan{
+    width: 190rpx;
+  height: 300rpx;
+  margin-left: 10rpx;
+ }
+.yanjiu{
+  width: 317rpx;
+  height: 300rpx;
+  margin-left: 10rpx;
+  }
+  .hang{
+  display: flex;
+  flex-direction: row;
+  width: 700rpx;
+  margin-top:18rpx;
+}
+.kuailewaiyu{
+    width: 420rpx;
+  height: 261rpx;
+  margin-left: 0rpx;
+}
+.lantu{
+   width: 270rpx;
+  height: 261rpx;
+    margin-left: 10rpx;
+}

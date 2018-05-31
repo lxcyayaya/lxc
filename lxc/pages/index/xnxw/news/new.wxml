@@ -1,0 +1,29 @@
+<import src="news-item/news-item-template.wxml" />
+<view>
+<!-- //下面是一个页面大图片，并且是一个可以滑动的图片 -->
+  <swiper vertical="{{flase}}" indicator-dots="true" autoplay="true" interval="5000">
+    <swiper-item>
+      <image src="http://47.95.224.243/img/news/1122.png"></image>
+    </swiper-item>
+  </swiper>
+
+<!-- 下面是一个关于搜索的地方 -->
+  <view class='search'>
+    <icon type='search' class='search-img' size='13' color='#405f80'> </icon>
+    <input type='text' placeholder='输入关键字搜索' placeholder-class='placeholder' bindfocus='onBindFocus' bindchange="onBindchange" value='{{key}}' />
+    <image wx:if="{{searchPanelShow}}" class='xx-img' src="http://47.95.224.243/img/news/xx.png" bindtap='onCancelImgTap'> </image>
+  </view>
+
+
+  <!-- 下面是一条华丽的分割线 -->
+  <image class='fenge' src='http://47.95.224.243/img/news/fenge.png'></image>
+</view>
+
+<!-- 下面是主要的内容 -->
+<view>
+  <block wx:for="{{inf}}" wx:for-item="item">
+    <view catchtap="onPostTap" data-postId="{{item.id}}">
+      <template is="postItem" data="{{...item}}" />
+    </view>
+  </block>
+</view>

@@ -1,0 +1,27 @@
+.fenge{
+width: 100%;
+height: 4rpx;
+}
+
+.text1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rpx;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+}
+
+.dada{
+    width: 200rpx;
+    height: 120rpx;
+    border-radius: 5rpx;
+}
+
+.xq{
+    font-size: 50px;
+    color: red;
+    width:460rpx;
+    margin-left: 30rpx;
+    margin: auto;
+    font-weight: bold;
+}

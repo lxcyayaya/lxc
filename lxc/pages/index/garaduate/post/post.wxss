@@ -1,0 +1,146 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 50px;
+  background: #fff;
+  border-radius: 5px;
+}
+.texttext{
+  background-color: #f2f2f2;
+  width: 100%;
+}
+.placeholder{
+  font-size: 16px;
+  color: #d1d1d1;
+  margin-left: 20rpx;
+}
+.fenge {
+  width: 100%;
+  height: 4rpx;
+}
+.tianjia{
+  display: flex;
+  flex-direction: row;
+}
+.little{
+  font-size: 25rpx;
+  color: 999;
+  margin-top: 130rpx;
+  margin-left: 10rpx;
+}
+.tianjia1{
+  width:180rpx;
+  height:180rpx;
+  margin-left: 25rpx;
+}
+.wenzi{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left:6%;
+  top: 660rpx;
+  opacity: 1.0;
+  color: #808080;
+}
+
+.xinxi{
+  width:100%;
+  height: 300rpx;
+}
+
+.text-fb {
+  margin-left: 10rpx;
+  font-size: 40rpx;
+  height: 100rpx;
+  width: 700rpx;
+  color: black;
+}
+
+.text-ms {
+  margin-left: 10rpx;
+  font-size: 30rpx;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  width: 700rpx;
+}
+
+.text-fb {
+  margin-left: 10rpx;
+  font-size: 30rpx;
+  height: 70rpx;
+  width: 700rpx;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  color: black;
+}
+
+.tu {
+  margin-top: 20rpx;
+  height: 100rpx;
+  width: 100rpx;
+}
+
+.fabu {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.suolue {
+  height: 200rpx;
+  width: 200rpx;
+  margin: 20rpx;
+}
+
+.fb-wb {
+margin-top: 100rpx;
+width: 600rpx;
+margin-left: 75rpx;
+background:#FFA500;
+height: 70rpx;
+line-height: 70rpx;
+text-align: center;
+border-radius: 3px;
+font-size: 30rpx;
+color: white;
+box-shadow: 2rpx 2rpx 2rpx #888888;
+
+}
+.moto-container{
+  margin-top:10rpx;
+  margin-left: 40rpx;
+  border: 1px solid #808080;
+  width:200rpx;
+  height:180rpx;
+  border-radius:5px;
+  text-align:center;
+}
+.row{
+    margin-top: -90rpx;
+    margin-left: 40rpx;
+     width:200rpx;
+     height:1px;
+     font-size:0;
+     background:#808080;
+}
+.colum{
+     margin-left: 140rpx;
+     margin-top: -90rpx;
+     width:1px;
+     height:90px;
+     font-size:0;
+     background:#808080;
+}
+.yzmmk{
+  border: 1px solid #999;
+  text-align: center;
+  margin-top: 300rpx;
+  
+}
+.zheshiyige{
+  height: 300rpx;
+}
+.zheshiyige1{
+  height: 100rpx;
+}

@@ -1,0 +1,12 @@
+<image src="http://www.gamewan.top/img/jiaoshi/guoer-top.jpg" style="width:750rpx;height:1796rpx;"></image>
+<button style='background:#6cafcc;color:#fff;width:600rpx;margin-top:-100rpx;' bindtap='baomingwechat'>在线报名</button>
+<button style='background:#6cafcc;color:#fff;width:600rpx;margin-top:20rpx;' bindtap='choujiang'>抽奖</button>
+<view hidden='{{myprize}}' style='text-align:center;color:#000000;margin-top:20rpx;'>
+您的奖品:{{prize}}
+</view>
+<!---
+<image src="http://www.gamewan.top/img/jiaoshi/wechat.png" style="width:750rpx;height:933rpx;margin-top:-9rpx;" bindtap='wechat'></image>
+<text style='height:30rpx;width:600rpx;margin-left:75rpx;color:red;'>微信付款时须在留言处填写本人学号</text>-->
+<image src="http://www.gamewan.top/img/jiaoshi/pay-top.png" style="width:750rpx;height:444rpx;margin-top:0rpx;" bindtap='alipay'></image>
+<image src="http://www.gamewan.top/img/jiaoshi/pay-bottom.png" style="width:750rpx;height:410rpx;margin-top:0rpx;" bindtap='alipay1'></image>
+<image src="http://www.gamewan.top/img/jiaoshi/qun.jpg" style="width:750rpx;height:870rpx;margin-top:-9rpx;" bindtap='qun'></image>

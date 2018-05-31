@@ -1,0 +1,7 @@
+.text{
+  width:500rpx;
+  margin-left: 125rpx;
+  margin-right: 125rpx;
+  font-size: 30rpx;
+  margin-top:30rpx;
+}

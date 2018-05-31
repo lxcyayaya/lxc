@@ -1,0 +1,50 @@
+
+<!-- 下面是一个密码框 -->
+<view class='yzmmk' hidden='{{ischeck}}'>
+  <view style='background:white;height:80rpx;width:100%;text-align:left;margin-left:10rpx;'>Signin</view>
+  <input placeholder='请输入密码' bindinput='yzm' style='height:80rpx;' value='{{yzm}}' password></input>
+  <button style='height:80rpx;' bindtap='tijiao'>确定</button>
+</view>
+<!-- 下面是正文 -->
+<view hidden='{{!ischeck}}'>
+ <view style='width:750rpx;background:gray;height:2px;'></view>
+ <view  class='zheshiyige1'></view>
+  <view class='input' class='texttext'>
+    <input placeholder="请输入公司名称" value='{{fabiao}}' class="text-fb" bindinput='gettitle' placeholder-class='placeholder' ></input>
+    <image class='fenge' src='http://47.95.224.243/img/news/fenge.png'></image> 
+    <input placeholder="请输入编辑者" value='{{fabiao}}' class="text-fb" bindinput='getauthor'  ></input>
+    <image class='fenge' src='http://47.95.224.243/img/news/fenge.png'></image> 
+    <input placeholder="请输入工作地点" value='{{fabiao}}' class="text-fb" bindinput='getdidian' placeholder-class='placeholder' ></input>
+    <image class='fenge' src='http://47.95.224.243/img/news/fenge.png'></image> 
+    <input placeholder="请输入招聘人数" value='{{fabiao}}'  type='number' class="text-fb" bindinput='getrenshu'  ></input>
+    <image class='fenge' src='http://47.95.224.243/img/news/fenge.png'></image> 
+    <textarea class='text-ms' placeholder="填写招聘要求" bindinput='getxiangqing' maxlength="{{max}}" placeholder-class='placeholder'> </textarea>
+    <image class='fenge' src='http://47.95.224.243/img/news/fenge.png'></image> 
+    <textarea class='text-ms' placeholder="请输入工资福利" bindinput='getfuli'  maxlength="{{max}}" > </textarea>
+  </view>
+
+  <!-- 下面用css实现了一个添加图片图标 -->
+  <view class="tianjia" bindtap='choose' >
+    <view>
+      <view class="moto-container"></view>
+      <view class="row"></view>
+      <view class="colum"></view>
+      <text  style='color: #808080;margin-left:70rpx;'>添加图片</text>
+    </view>
+    <view  class='little'>为了显示正常，请尽量上传横屏图片，最佳尺寸为（宽:高=7:3）</view>
+  </view>
+
+
+  <!-- 下面是一个如果添加了图片，则会在发布上面显示当前添加的图片。 -->
+  <block wx:for="{{images}}">
+    <image src='{{item}}' class="suolue" bindlongpress='delimg' data-id='{{index}}' style='height:{{200*height/width}}rpx'></image>
+  </block>
+
+
+  <!-- 下面是一个发布按钮 -->
+  <button class='fb-wb' bindtap='fabu' disabled='{{isfabu}}'>发布</button>
+
+
+  <!-- 下面是一个空白填充，因为某些全面屏手机如果发布在最下面的话，会点击失败 -->
+  <view  class='zheshiyige'></view>
+</view>

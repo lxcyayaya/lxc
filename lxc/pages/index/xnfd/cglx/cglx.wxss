@@ -1,0 +1,5 @@
+/* pages/index/xnfd/cglx/cglx.wxss */
+.cglx{
+  width: 750rpx;
+  height: 1564rpx;
+}

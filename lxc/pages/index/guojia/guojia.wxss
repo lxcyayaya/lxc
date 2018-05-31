@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 100rpx;
+}
+.user-avatar{
+  width:250rpx;
+  height:250rpx;
+  margin-top:5rpx;
+  
+
+}
+.user-name{
+  margin-top:20rpx;
+  font-size:32rpx;
+ 
+
+}
+.user-aa
+{
+  width:598rpx;
+  height:96rpx;
+  margin-top:50rpx;
+
+
+}
+.user-ab
+{
+  width:598rpx;
+  height:96rpx;
+  margin-top:50rpx;
+
+
+}
+.user-ac
+{
+  width:598rpx;
+  height:96rpx;
+  margin-top:50rpx;
+
+
+}
+page{ 
+
+  background-color:lightcyan;
+}

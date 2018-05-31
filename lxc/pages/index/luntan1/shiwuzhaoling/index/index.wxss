@@ -1,0 +1,24 @@
+/**index.wxss**/
+@import "../item/item.wxss";
+
+
+.tu{
+   align-items: center;
+  width: 750rpx;
+  height: 513rpx;
+  margin-left: 10rpx;
+  margin-bottom:150rpx;
+
+}
+
+page{ 
+
+  background-color:beige;
+
+  
+}
+.container{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}

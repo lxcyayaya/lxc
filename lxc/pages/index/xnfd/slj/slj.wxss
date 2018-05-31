@@ -1,0 +1,66 @@
+/* pages/index/xnfd/slj/slj.wxss */
+.wenben{
+  font-size: 28rpx;
+  width: 550rpx;
+  margin-top: 20rpx;
+}
+page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.zxbm{
+  display: flex;
+  flex-direction: row;
+  margin-left: -540rpx;
+  margin-top: 200rpx;
+
+}
+.color{
+
+
+  background:#06c1ae;
+  height: 40rpx;
+  width: 10rpx;
+}
+.wbk{
+  display: flex;
+  align-items: center;
+  padding: 15rpx 10rpx;
+  margin: 40rpx 3%;
+  background: #fff;
+  border-radius: 5px;
+  width: 550rpx;
+  font-size: 30rpx;
+  border: 2px solid #f4f4f4;
+  transition: all .25s ease-in-out;
+}
+.zxzf{
+  display: flex;
+  flex-direction: row;
+  margin-left: -540rpx;
+  margin-top: 30rpx;
+
+}
+.hengxian{
+  background:gainsboro;
+  width: 750rpx;
+  height: 1px;
+}
+.confirm-btn {
+  font-size: 13pt;
+  line-height: 80rpx;
+  height: 80rpx;
+  background: #06c1ae;
+  color: #fff;
+  text-align: center;
+  width: 600rpx;
+  border-radius: 5px;
+  margin: 50rpx 8%;
+  box-shadow: 3px 3px 5px #888888;
+}
+.hengxiang{
+  display: flex;
+  flex-direction: row;
+
+}

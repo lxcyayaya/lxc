@@ -1,0 +1,20 @@
+<image src="http://www.gamewan.top/img/jiaoshi/logo1.png" style="width:750rpx;height:580rpx;"></image>
+<input placeholder='  姓名' bindinput='name' value="{{name}}"></input>
+<input placeholder='  学号' bindinput='username'  value="{{username}}"></input>
+<input placeholder='  联系电话' bindinput='phone'  value="{{phone}}"></input>
+
+<checkbox-group bindchange="checkbox" style="margin-top:30rpx;" hidden="true">
+<label><checkbox value='WORD,'/>WORD</label>
+<label><checkbox value='EXCEL,'/>EXCEL</label>
+<label><checkbox value='PPT,'/>PPT</label>
+</checkbox-group>
+
+<radio-group bindchange="zhuanyeorzhuanjia" >
+<label><radio value="视频普通" style='color:black;font-size:30rpx;'checked="{{check1}}" disabled='{{!check1}}'>视频普通</radio></label>
+<label><radio value='视频循环' style='color:black;font-size:30rpx;' checked="{{check2}}" disabled='{{!check2}}'>视频循环</radio></label>
+<label><radio value="面授" style='color:black;font-size:30rpx;' checked="{{check3}}" disabled='{{!check3}}'>面授</radio></label>
+<label><radio value='签约' style='color:black;font-size:30rpx;' checked="{{check4}}" disabled='{{!check4}}'>签约</radio></label>
+</radio-group>
+<input placeholder='支付宝实名姓名' bindinput='alipay' style="font-size:25rpx;" value='{{alipay}}'></input>
+<text style='font-size:30rpx;width:600rpx;'>报名出现任何问题，联系QQ503554587</text>
+<button class="btn" style="{{btn}}" bindtap='baoming'>{{isbaoming}}</button>

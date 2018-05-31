@@ -1,0 +1,4 @@
+/* pages/index/hwdg/hwdg.wxss */
+page{
+  text-align: center;
+}

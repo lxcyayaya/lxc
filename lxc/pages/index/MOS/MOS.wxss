@@ -1,0 +1,4 @@
+/* pages/index/MOS/MOS.wxss */
+page{
+  background: #ffffff;
+}

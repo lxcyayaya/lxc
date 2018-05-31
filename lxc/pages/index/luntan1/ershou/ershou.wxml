@@ -1,0 +1,29 @@
+<import src="ershou-template/ershou-template.wxml" />
+<view>
+  <view class='search'>
+    <icon type='search' class='search-img' size='13' color='#405f80'> </icon>
+    <input type='text' placeholder='输入搜索内容' placeholder-class='placeholder' bindfocus='onBindFocus' bindchange="onBindchange" value='{{key}}' />
+  </view>
+  <scroll-view scroll-y style="height:{{sh}}rpx;" bindscrolltolower="xialashuaxin">
+    <view class='container'>
+      <image src='http://www.gamewan.top/img/zd.png' class='zd'></image>
+      <text class='text'>最新发布</text>
+      <image class='fenge' src='http://www.gamewan.top/img/fenge.png'></image>
+    </view>
+
+    <block wx:for="{{inf}}" wx:for-item="item">
+      <view>
+        <template is="postItem" data="{{...item}}" />
+      </view>
+    </block>
+    <view class="weui-loadmore" hidden="{{isHideLoadMore}}">
+      <view class="weui-loading"></view>
+      <view class="weui-loadmore__tips">正在加载</view>
+    </view>
+  </scroll-view>
+</view>
+
+<view class='add'>
+  <image class='add-pic' src='http://www.gamewan.top/img/icon-fabu.png' catchtap='addbind'></image>
+  <text class='add-text'>发  布</text>
+</view>

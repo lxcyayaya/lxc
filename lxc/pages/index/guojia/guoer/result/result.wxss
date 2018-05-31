@@ -1,0 +1,86 @@
+page{
+  background: #b4ddec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+.container{
+  background: #ffffff;
+  width: 650rpx;
+
+  margin-top: 80rpx;
+  margin-bottom: 30rpx;
+  box-shadow: -2px 0px 10px #91c9de,2px 0px 10px #91c9de,0px -2px 10px #91c9de,0px 2px 10px #91c9de;
+  border-radius: 8px;
+ 
+  
+  }
+  .touxiang{
+ width: 209rpx;
+  height: 209rpx;
+  margin-top: 50rpx;
+  }
+  .v-touxiang{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+  }
+  .text-item{
+    margin-left: 60rpx;
+    margin-top: 50rpx;
+display: flex;
+flex-direction: row;
+margin-bottom: 30rpx;
+  }
+    .text-item1{
+    margin-left: 60rpx;
+    margin-top: 100rpx;
+display: flex;
+flex-direction: row;
+
+  }
+  .text-detail-kc{
+    font-weight: 300;
+    font-size: 35rpx;
+    color: #6d6d6d;
+  }
+   .text-detail-cj{
+    font-weight: 300;
+    font-size: 35rpx;
+    color: #ff0000;
+  }
+  .text-detail{
+    font-weight: 300;
+    font-size: 35rpx;
+    
+  }
+.confirm-btn {
+  font-size: 13pt;
+  line-height: 90rpx;
+  height: 90rpx;
+    background: #06c1ae;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  margin: 50rpx 8%;
+  box-shadow: 3px 3px 5px #888888;
+}
+.confirm-btn:active {
+  opacity: .8;
+}
+.hengxian{
+  height: 1px;
+  background: #bfbfbf;
+}
+.xxk{
+
+  margin: 40rpx;
+  display: flex;
+  flex-direction: column;
+border: 1px solid #bfbfbf;
+border-radius: 8px;
+margin-top: 30rpx;
+}

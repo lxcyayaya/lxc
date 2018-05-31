@@ -1,0 +1,8 @@
+<view class="container">
+<text class="yjcx">一键查询</text>
+<image src='http://47.95.224.243/img/jiaowu-btn-top.png' class="img-btn" bindtap='cxkb'></image>
+<image src='http://47.95.224.243/img/jiaowu-btn-mid.png' class="img-btn" bindtap='cxcj'></image>
+<image src='http://47.95.224.243/img/jiaowu-btn-low.png' class="img-btn" bindtap='cxksdd'></image>
+<text class="question" bindtap='question'>查询遇到问题？</text>
+
+</view>

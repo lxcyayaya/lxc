@@ -1,0 +1,111 @@
+<swiper vertical="{{flase}}" indicator-dots="true" autoplay="true" interval="5000">
+  <swiper-item>
+    <image src="http://47.95.224.243/img/1.png" class="main"  bindtap='ershoushichang'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="http://47.95.224.243/img/3.png" class="marginl"  bindtap='biyeTap'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="http://47.95.224.243/img/2.png" class="marginl" bindtap='morebind'></image>
+  </swiper-item>
+</swiper>
+<swiper indicator-dots="true" style='height:380rpx;'>
+  <swiper-item>
+    <view>
+      <view class="box">
+        <view class="box8" bindtap='jiaowuguanlibind'>
+          <image src="http://47.95.224.243/img/教务管理.png" class="haha"></image>
+          <text class="qqq">教务管理</text>
+        </view>
+        <view class="box8" bindtap='kaoshichaxunbind'>
+          <image src="http://47.95.224.243/img/考试查询.png" class="haha"></image>
+          <text class="qqq">考试查询</text>
+        </view>
+        <view class="box8" bindtap='xiaoneifudaobind'>
+          <image src="http://47.95.224.243/img/校内辅导.png" class="haha"></image>
+          <text class="qqq">校内辅导</text>
+        </view>
+        <view class="box8" bindtap='ershoushichang'>
+          <image src="https://www.gamewan.top/img/essc.png" class="haha"></image>
+          <text class="qqq">二手市场</text>
+        </view>
+        <view class="box8" bindtap='morebind'>
+          <image src="http://47.95.224.243/img/gywm.png" class="haha"></image>
+          <text class="qqq">关于我们</text>
+        </view>
+      </view>
+      <view class="box">
+        <view class="box8">
+          <image src="http://47.95.224.243/img/新闻图标.png" class="haha" bindtap='xiaoneixinwenbind'></image>
+          <text class="qqq">校内新闻</text>
+        </view>
+        <view class="box8" bindtap='happyrcbind'>
+          <image src="http://47.95.224.243/img/乐在荣成.png" class="haha"></image>
+          <text class="qqq">乐在荣成</text>
+        </view>
+        <view class="box8" bindtap='xiaoyuanluntanbind'>
+          <image src="http://47.95.224.243/img/校园论坛.png" class="haha"></image>
+          <text class="qqq">校园服务</text>
+        </view>
+        <view class="box8" bindtap='biyeTap'>
+          <image src="https://www.gamewan.top/img/jyzp.png" class="haha"></image>
+          <text class="qqq">毕业招聘</text>
+        </view>
+
+
+
+
+        <view class="box8" bindtap='qiandaochoujiang'>
+          <image src="http://47.95.224.243/img/logo-qiandao.png" class="haha"></image>
+          <text class="qqq">签到抽奖</text>
+        </view>
+      </view>
+    </view>
+
+  </swiper-item>
+  <swiper-item>
+    <view>
+      <view class="box">
+        <view class="box8" bindtap='shangjialianxi'>
+          <image src="http://47.95.224.243/img/sjlx.png" class="haha"></image>
+          <text class="qqq">商家联系</text>
+        </view>
+        <view class="box8" bindtap='xueshenghuodongbind' >
+          <image src="http://47.95.224.243/img/学生活动.png" class="haha"></image>
+          <text class="qqq">国二报名</text>
+        </view>
+        <view class="box8" bindtap='haiwaidaigou'>
+          <image src="http://47.95.224.243/img/hwdg.png" class="haha"></image>
+          <text class="qqq">海外代购</text>
+        </view>
+
+        <view class="box8" bindtap='zaixiandatibind'>
+
+          <image src="http://47.95.224.243/img/logo-dati.png" class="haha"></image>
+          <text class="qqq">在线答题</text>
+        </view>
+
+
+      </view>
+    </view>
+  </swiper-item>
+
+</swiper>
+
+
+
+<view class="box">
+  <image src="http://47.95.224.243/img/矩形.png" class="juxing"></image>
+  <text class="aaa">热点速递</text>
+</view>
+<block wx:for="{{rdsd}}" wx:for-item="item">
+
+  <view class="horizon">
+  </view>
+  <view class="ccc">
+    <text class="ooo"> {{item.title}}\n{{item.content}}</text>
+    <!--->
+    <text class="mmm"></text>-->
+  </view>
+
+</block>

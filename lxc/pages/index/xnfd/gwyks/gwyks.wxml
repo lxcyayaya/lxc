@@ -1,0 +1,5 @@
+<image src="http://www.gamewan.top/img/公务员.png" style="width:750rpx;height:1213rpx;"> </image>
+<view style="display:flex;flex-direction:column;margin-bottom:30px;">
+  <icon type="warn" size="70"></icon>
+  <text>暂无班级</text>
+</view>

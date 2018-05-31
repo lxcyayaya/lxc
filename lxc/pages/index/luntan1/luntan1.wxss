@@ -1,0 +1,302 @@
+.container{
+  display: flex;
+  flex-direction: column;
+
+}
+.item-1{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+
+}
+.item2-1{
+  height: 170rpx;
+  margin-left: 20rpx;
+  width: 1230rpx;
+}
+
+.fb{
+display: flex;
+flex-direction: row; 
+
+}
+.image-fb{
+  margin-top: 10rpx;
+  height: 59.5rpx;
+  width: 204rpx;
+}
+.text-fb{
+margin-left: 10rpx;
+font-size: 30rpx;
+height: 70rpx;
+width:600rpx;
+
+
+ border: 1px solid #dddddd;
+border-radius: 2px;
+color: #727272;
+}
+.item2{
+  background: white;
+  
+margin-left: 20rpx;
+margin-right: 20rpx;
+
+
+bottom: 8rpx;
+position: fixed;
+   display: flex;
+   flex-direction: column;
+ 
+
+
+}
+.item2-2{
+  display: flex;
+  flex-direction: row;
+  
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+ 
+
+}
+.pcolor{
+
+  background: #ff0000;
+  width: 5px;
+
+}
+.item2-2-detail{
+  display: flex;
+  flex-direction: column;
+}
+.hengxiang{
+  display: flex;
+  flex-direction: row;
+}
+.touxiang{
+ width: 100rpx;
+  height: 100rpx;
+ 
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.nicheng{
+
+  margin-left: 30rpx;
+margin-top: 20rpx;
+  font-size: 30rpx;
+  font-weight: 300;
+  color: #ff0000;
+}
+.neirong{
+    margin-left: 30rpx;
+  font-size: 30rpx;
+  font-weight: 200;
+  margin-top: 10rpx;
+
+  width: 680rpx;
+
+}
+
+.zf{
+  height: 50rpx;
+  width: 150rpx;
+  
+}
+
+.hengxiang2{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+
+ 
+  background: #f7f7f7;
+}
+.zfpl{
+  border: 0px 0px 0px 1px #dddddd;
+  display: flex;
+  flex-direction: row;
+  width:335rpx;
+  height: 50rpx;
+  padding: 20rpx;
+}
+.zfpl-t{
+  border: 0px 0px 0px 1px #dddddd;
+  display: flex;
+  flex-direction: row;
+  width:335rpx;
+  background: lightgray;
+  height: 50rpx;
+  padding: 20rpx;
+}
+
+.huanhang{
+  height: 20rpx;
+}
+.timetext{
+font-size: 23rpx;
+color: #CDC5BF;
+margin-top: 3rpx;
+margin-left:30rpx;
+width:200rpx;
+}
+.zongxiang{
+  display: flex;
+  flex-direction: column; 
+
+}
+.delete-no{
+ margin-right: 20rpx;
+  font-size: 20rpx;
+  color: white;
+  margin-top: 20rpx;
+  width: 80rpx;
+  pointer-events: none;
+ 
+  }
+  .duiqi{
+    width: 45%;
+    
+  }
+  .delete-yes{
+ margin-right: 20rpx;
+  font-size: 20rpx;
+  color: #989898;
+  margin-top: 20rpx;
+  width: 80rpx;
+ 
+  }
+  .zongxiang1{
+      display: flex;
+  flex-direction: column;
+   
+   
+  }
+  .xinling{
+      margin-left: 20rpx;
+      width: 600rpx;
+  height: 170rpx;
+  background: #7ecef4;
+  }
+  .fenlei-zongxiang{
+    display: flex;
+    flex-direction: column;
+    margin: 20rpx;
+    align-items: center;
+    color: white;
+ 
+    
+  }
+  .shang{
+    font-size: 38rpx;
+    font-weight:420;
+  }
+  .xia{
+    margin-top: 15rpx;
+    font-size: 30rpx;
+     font-weight: 350;
+  }
+  .ershou{
+      margin-left: 20rpx;
+      width: 710rpx;
+  height: 170rpx;
+  background: #82d8b5;
+
+  }
+   .zuixia{
+     margin-top: -7rpx;
+    font-size: 30rpx;
+     font-weight: 350;
+  }
+   .zhaoling{
+      margin-left: 20rpx;
+      width: 600rpx;
+  height: 170rpx;
+  background: #375587;
+  margin-right: 20rpx;
+
+  }
+  .weixiu{
+    height: 170rpx;
+  margin-left: 20rpx;
+  width: 1230rpx;
+  background: #fd9866;
+  }
+  .xia-erpai{
+      margin-top: 20rpx;
+    font-size: 30rpx;
+     font-weight: 350;
+
+  }
+  .dayin{
+     height: 170rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  background: #f29c9f;
+  width: 600rpx;
+
+  }
+
+ .back-fb{ 
+  background-color: #06c1ae;
+  color: white;
+  font-size: 21rpx;
+  border-radius: 3px;
+  height: 70rpx;
+  line-height: 70rpx;
+
+width: 100rpx;
+
+  
+
+ }
+ .button-hover{
+background-color: #06818e;
+ }
+.like{
+   font-size: 25rpx;
+    height: 50rpx;
+    
+    margin-left: 30rpx;
+    margin-top: 13rpx;
+
+ }
+ .zf-img{
+ 
+   margin-top: 10rpx;
+margin-left: 80rpx;
+   width:32rpx;
+   height: 32rpx;
+ }
+ .pl-text{
+   font-size: 25rpx;
+
+    margin-left: 30rpx;
+    margin-top: 10rpx;
+
+ }
+ .weui-loading {
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-animation: weuiLoading 1s steps(12, end) infinite;
+  animation: weuiLoading 1s steps(12, end) infinite;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiB2aWV3Qm94PSIwIDAgMTAwIDEwMCI+PHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgxMDB2MTAwSDB6Ii8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjRTlFOUU5IiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTMwKSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iIzk4OTY5NyIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgzMCAxMDUuOTggNjUpIi8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjOUI5OTlBIiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0icm90YXRlKDYwIDc1Ljk4IDY1KSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iI0EzQTFBMiIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSg5MCA2NSA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNBQkE5QUEiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoMTIwIDU4LjY2IDY1KSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iI0IyQjJCMiIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgxNTAgNTQuMDIgNjUpIi8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjQkFCOEI5IiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0icm90YXRlKDE4MCA1MCA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNDMkMwQzEiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTE1MCA0NS45OCA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNDQkNCQ0IiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTEyMCA0MS4zNCA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNEMkQyRDIiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTkwIDM1IDY1KSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iI0RBREFEQSIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgtNjAgMjQuMDIgNjUpIi8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjRTJFMkUyIiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0icm90YXRlKC0zMCAtNS45OCA2NSkiLz48L3N2Zz4=) no-repeat;
+  background-size: 100%;
+}
+.weui-loadmore {
+  width: 65%;
+  margin: 1.5em auto;
+  line-height: 1.6em;
+  font-size: 14px;
+  text-align: center;
+}
+.weui-loadmore__tips {
+  display: inline-block;
+  vertical-align: middle;
+}
+

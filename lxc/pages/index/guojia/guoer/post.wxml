@@ -1,0 +1,24 @@
+<view class="container">
+  
+ 
+       
+        <image  class="title" src='http://47.95.224.243/img/sousuo.png'></image>
+    
+
+        <view class="bd">
+            <form>
+                
+                <view class="input-group {{ passid_focus ? 'active' : '' }}">
+
+                    <input  cursor-spacing="30" id="passid" placeholder="请输入身份证号" bindinput="passidInput" bindblur="inputBlur" />
+                </view>
+                <view class="confirm-btn" bindtap="bind">
+                    <text>查询</text>
+                </view>
+               
+            </form>
+        </view>
+
+
+
+</view>

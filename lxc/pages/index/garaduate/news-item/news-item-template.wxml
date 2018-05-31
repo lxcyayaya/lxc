@@ -1,0 +1,7 @@
+<template name="postItem">
+<view class='text1'>
+<image class='dada' src='{{imgurl}}'></image>
+<text class='xq'>{{title}}</text>
+</view>
+<image class='fenge' src='http://47.95.224.243/img/news/fenge.png'></image>
+</template>

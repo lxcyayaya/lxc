@@ -1,0 +1,29 @@
+<scroll-view scroll-y style='height:1333rpx;'>
+<button style='width:600rpx; margin-top:30rpx;' type='primary' bindtap='setmodel'>{{model}}</button>
+<block wx:for="{{list}}">
+  <view class='question'>
+    <text>{{index+1}}、{{item.title}}</text>
+    <image style='width:700rpx;height:300rpx;' src="{{item.titleimage}}" hidden='{{item.isimagetitle}}'></image>
+    <radio-group bindchange="myanswer" data-answer="{{item.answer}}">
+      <radio style='width:650rpx;' value='A'>
+       <view style='width:600rpx;'><text hidden='{{item.istexta}}'>A、{{item.answera}}</text></view> 
+        <image src='{{item.answeraimage}}' class='answerimage' hidden='{{item.isimagea}}'></image>
+      </radio>
+      <radio style='width:650rpx;' value='B'>
+          <view style='width:600rpx;'><text hidden='{{item.istextb}}' class="answer">B、{{item.answerb}}</text></view> 
+        <image src='{{item.answerbimage}}' class='answerimage' hidden='{{item.isimageb}}'></image>
+      </radio>
+      <radio style='width:650rpx;' value='C' class="answer">
+       <view style='width:600rpx;'> <text hidden='{{item.istextc}}'>C、{{item.answerc}}</text></view> 
+        <image src='{{item.answercimage}}' class='answerimage' hidden='{{item.isimagec}}'></image>
+      </radio>
+      <radio style='width:650rpx;' value='D' hidden='{{item.nod}}'>
+        <view style='width:600rpx;'> <text hidden='{{item.istextd}}' class="answer">D、{{item.answerd}}</text></view> 
+        <image src='{{item.answerdimage}}' class='answerimage' hidden='{{item.isimaged}}'></image>
+      </radio>
+    </radio-group>
+    <text style='color:red;' hidden='{{isdisplay}}'>正确答案：{{item.answer}}</text>
+  </view>
+</block>
+<button style='width:600rpx; margin-top:30rpx;' type='primary' bindtap='tijiao'>提交</button>
+</scroll-view>

@@ -1,0 +1,44 @@
+<image src='http://www.gamewan.top/img/xnfd/slj-top.png' style="width:750rpx;height:575rpx"></image>
+<view class="wenben">
+  <text>大学英语四、六级考试作为一项教育部主管的全国性的教学考试，由“国家教育部高教司”主办，分为四级考试(CET-4) 和六级考试(CET-6),每年各举行两次，其目的是对大学生的实际英语能力进行客观、准确的测量，为大学英语教学提供测评服务。同时英语四六级也是一项大规模标准化考试，是一个“标准关联的常模参照测验”，在我们以后的工作生活中起着至关重要的作用。</text>
+</view>
+<view hidden='{{true}}'>
+<view class="zxbm">
+  <view class="color"></view>
+  <text style="font-size:30rpx;">在线报名</text>
+</view>
+<view class="wbk">
+  <text>姓   名： </text>
+  <input placeholder="请输入学号"></input>
+</view>
+<view class="wbk">
+  <text>手机号： </text>
+  <input placeholder="请输入手机号"></input>
+</view>
+<view class="zxzf">
+  <view class="color"></view>
+  <text style="font-size:30rpx;">在线支付</text>
+</view>
+<view style='height:30rpx;'></view>
+<view class="hengxian"></view>
+<view class="hengxiang">
+  <image src="http://www.gamewan.top/img/wechat.png" style='height:80rpx;width:80rpx;margin-left:-60rpx;margin-top:25rpx;'></image>
+  <view style="display:flex;flex-direction:column;margin-left:30rpx;margin-top:20rpx;">
+    <text style="font-size:35rpx;">微信支付</text>
+    <text style='color: gray;font-size:25rpx;magin-top:10rpx;'>使用微信支付，安全快捷</text>
+  </view>
+
+  <icon type='success' style="margin-top:40rpx;margin-left:200rpx;"></icon>
+</view>
+
+<view style="height:30rpx;"></view>
+<view class="hengxian"></view>
+<view class="confirm-btn" bindtap="bind">
+  <text>确认支付</text>
+</view>
+</view>
+<view hidden='{{false}}' style="display:flex; flex-direction: column;margin-top:50rpx;">
+<icon type="warn" size="70"></icon>
+<text>暂无班级</text>
+
+</view>

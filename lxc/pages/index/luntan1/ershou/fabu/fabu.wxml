@@ -1,0 +1,30 @@
+<view class='input'>
+  <input placeholder="标题 品牌品类都是卖家喜欢搜索的" value='{{fabiao}}' class="text-ms" bindinput='getbiaoti1'> </input>
+</view>
+<!--<image class='fenge' src="http://www.gamewan.top/img/fenge.png"></image>-->
+<view>
+    <view style='width:650rpx;background:#808080;height:1px; margin-left:35rpx;margin-top:2rpx;'></view>
+  <view class='input'>
+    <textarea class='text-ms' placeholder="描述一下 宝贝的细节或故事" bindinput='getxiangqing'> </textarea>
+  </view>
+  <view class="tianjia" bindtap='choose'>
+    <view>
+      <view class="moto-container"></view>
+      <view class="row"></view>
+      <view class="colum"></view>
+      <!-- <text style='color: #808080;margin-left:70rpx;'> 添加图片</text>-->
+    </view>
+    <!---<image src='../../images/essc/a.png' class='tu' ></image>-->
+    <view style='width:650rpx;background:#808080;height:1px; margin-left:45rpx;margin-top:65rpx;'></view>
+  </view>
+  <view class='input'>
+    <input placeholder="价格:" value='{{fabiao}}' class="text-fb" bindinput='getjiage' type='number'></input>
+    <input placeholder="联系方式:" value='{{fabiao}}' class="text-fb" bindinput='getbiaoti' type='number' style='margin-top:10rpx;'></input>
+  </view>
+  <block wx:for="{{images}}">
+    <image src='{{item}}' class="suolue" bindlongpress='delimg' data-id='{{index}}' style='height:{{200*height/width}}rpx'></image>
+  </block>
+  <button class='fb-wb' bindtap='fabu' disabled='{{isfabu}}'>发布</button>
+  <button class='fb-wb' bindtap='zhiding' hidden='true'>置顶3天</button>
+
+</view>
