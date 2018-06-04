@@ -1,9 +1,0 @@
-.yan
-{
-  margin-top: 300rpx;  /*容器的位置*/
-}
-.yjs{
-  font-size: 40rpx;
-  margin-top: 300rpx;             /*yjsks字体的设置*/
-  margin-left: 190rpx;
-}

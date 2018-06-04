@@ -1,9 +1,0 @@
-<!--index.wxml-->
-
-
-<import src="../item/item.wxml"/>
-<view class="container">
-    <image class="tu" src="http://47.95.224.243/img/shiwuzhaoling.png"></image>
-   <template is="p"/>
-   <template is="p"/>
-</view>

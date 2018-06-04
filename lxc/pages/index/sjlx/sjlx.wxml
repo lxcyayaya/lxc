@@ -1,2 +1,0 @@
-<image src="http://www.gamewan.top/img/lxwm.jpg" style="width:750rpx;height:1194rpx"></image>
-<button bindtap='makecall' style="background:#06c1ae;color:#fff;margin-top:-10rpx;"  hover-class="button-hover" hover-start-time="0">点击联系我们</button>

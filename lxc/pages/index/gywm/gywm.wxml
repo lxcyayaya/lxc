@@ -1,5 +1,0 @@
-<!--pages/index/gywm/gywm.wxml-->
-<image src="http://www.gamewan.top/img/cyjs.jpg" class="gywm"></image>
-<!---<view class="hengxiang"><contact-button size="18" style="height:30rpx;"></contact-button><text style="height:30rpx; line-height:30rpx;">联系我们</text></view>-->
-<button open-type="contact" style="background:#06c1ae;color:#fff"  hover-class="button-hover" hover-start-time="0">联系我们</button>
-
